@@ -362,10 +362,38 @@
     align-items: center;
 }
 /* CTA-section */
+.CTA-section{
+    width: 100%;
+    background: #F58A07;
+    display: flex;
+    margin-top: 95px;
+}
 .CTA-section-left{
-    background: url('../biy-daalt/img/experience-image.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 50%;
+    height: auto;
+}
+.CTA-section-left>img{
+    width: 100%;
+    height: 100%;
+}
+.CTA-section-right{
+   width: 65%;
+   padding: 130px;
+}
+.CTA-section-right>h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.CTA-btn>a{
+    padding: 19px 32px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: rgba(245, 138, 7, 1);
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 600;
 }
 
