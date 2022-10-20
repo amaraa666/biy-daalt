@@ -38,7 +38,7 @@
     position: relative;
 }
 .article-left{
-    width: 40%;
+    width: 45%;
 }
 .article-right{
     width: auto;
@@ -83,7 +83,7 @@
 }
 .article>.article-left>.article-footer{
     padding: 20px 0;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 .article>.article-left>.article-footer>p{
     font-size: 18px;
@@ -110,21 +110,19 @@
 }
 .help-section-card{
     display: flex;
+    justify-content: space-between;
 }
 .help-card{
     display: flex;
     flex-direction: column;
     width: 400px;
     height: auto;
-    margin: 0 10px;
-    vertical-align: top;
 }
 .help-card-img{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 50%;
 }
 .help-card-img>img{
     border-radius: 20px;
@@ -133,6 +131,7 @@
     height: auto;
 }
 .help-card>.help-card-title>h3{
+    margin-top: 30px;
     color: rgba(13,19,23,1);
     font-size: 24px;
     font-weight: 500;
@@ -151,3 +150,222 @@
     display: flex;
     margin: 0;
 }
+/* feaures section */
+.feaures-section{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    background: #EDF7FF;
+}
+.main-section{
+    width: 100%;
+    height: auto;
+}
+.main-section>.header-main-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0px;
+    width: 100%;
+    height: 40%;
+}
+.header-main-section>.main-section-title{
+    width: 45%;
+    height: auto;
+}
+.header-main-section>.main-section-title>h2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    margin: 0;
+}
+.header-main-section>.main-section-pragraph>p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0;
+}
+.header-main-section>.main-section-pragraph{
+    width: 45%;
+    height: auto;
+}
+.main-section>.footer-main-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+}
+.main-section>.footer-main-section>.feaures-card{
+    width: 32%;
+    height: auto;
+    border-radius: 20px;
+    padding: 40px 30px 25px 40px;
+    background: #fff;
+}
+.main-section>.footer-main-section>.feaures-card>.feaures-card-title>h2{
+    color: rgba(13, 19, 23, 1);
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.main-section>.footer-main-section>.feaures-card>.feaures-card-title>p{
+    color: rgba(91, 91, 91, 1);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+}
+/* about section */
+.about-section{
+    display: flex;
+    margin-top: 95px;
+}
+.about-section-left{
+    width: 45%;
+}
+.about-section-right{
+    width: 55%;
+}
+.about-section>.about-section-left>.about-section-title{
+    padding: 40px 50px 0px 0px;
+}
+.about-section>.about-section-left>.about-section-footer{
+    padding: 10px 50px 20px 0px;
+}
+.about-section>.about-section-left>.about-section-title>h2{
+    color: rgba(13, 19, 23, 1);
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 600;
+}
+.about-section>.about-section-left>.about-section-title>p{
+    color: rgba(91, 91, 91, 1);
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.about-section>.about-section-left>.about-section-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-section>.about-section-left>.about-section-footer .feature-name>h3{
+    font-size: 36px;
+    line-height: 50px;
+    color: rgba(245, 138, 7, 1);
+    font-family: 'Inter' sans-serif;
+}
+.about-section>.about-section-left>.about-section-footer .feature-title>h3{
+    font-size: 24px;
+    line-height: 25px;
+    font-weight: 600;
+    margin-top: 0;
+    color: rgba(13, 19, 23, 1);
+}
+.about-section>.about-section-left>.about-section-footer .feature-title>p{
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 28px;
+   color: rgba(91, 91, 91, 1);
+}
+.about-section>.about-section-left>.about-section-footer>.about-feature-left{
+   width: 45%;
+}
+.about-section>.about-section-left>.about-section-footer>.about-feature-right{
+    width: 45%;
+ }
+ .about-section>.about-section-right>img{
+    height: 100%;
+ }
+ /* service-section */
+ .service-section{
+    background: rgba(237, 247, 255, 1);
+    margin-top: 95px;
+    border-radius: 20px;
+    position: relative;
+ }
+ .service-section::after{
+    content: '';
+    background: url('../biy-daalt/img/Ribbon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    width: 150px;
+    height: 150px;
+ }
+ /* .service-section>.service-section-header{
+    
+ } */
+ .service-section>.service-section-header>.service-btn{
+    display: flex;
+    padding: 56px 72px;
+ }
+ .service-section>.service-section-header>.service-btn>.first-service-btn{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px 25px;
+    border-radius: 30px;
+ }
+ .service-section>.service-section-header>.service-btn>.first-service-btn>a{
+    color: rgba(245, 138, 7, 1);
+ }
+ .service-section>.service-section-header>.service-btn>.second-service-btn{
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: 1px solid #A8BCCC;
+    margin-left: 24px;
+}
+.service-section>.service-section-header>.service-btn>.second-service-btn>a{
+  color:rgba(6, 50, 85, 0.3);
+}
+.service-section-footer{
+    display: flex;
+    padding-left: 72px;
+}
+.service-section-left{
+    width: 45%;
+}
+.service-section-left>.service-left-body>h1{
+    color: rgba(13, 19, 23, 1);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+}
+.service-section-left>.service-left-body>p{
+    color: rgba(91, 91, 91, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.service-section-left>.service-left-footer>p{
+    color: rgba(91, 91, 91, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.service-left-footer{
+    padding: 20px 0px 55px 0px;
+}
+.service-section-left>.service-left-footer>a{
+    color: rgba(245, 138, 7, 1);
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+.service-section-right{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* CTA-section */
+.CTA-section-left{
+    background: url('../biy-daalt/img/experience-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
