@@ -90,6 +90,10 @@ a{
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     width: 100%;
+    filter: saturate(0.1);
+}
+.blog-card-img>img:hover{
+    filter: saturate(0.8);
 }
 .blog-card-title{
     height: 100%;
@@ -203,6 +207,9 @@ footer{
     font-size: 18px;
     padding: 0px 10px;
 }
+.footer-icons>a>i:hover{
+    color: rgb(223, 223, 223);
+}
 .footer-about h3{
     color: #fff;
     font-size: 18px;
@@ -223,6 +230,9 @@ footer{
     font-weight: 500;
     color: rgba(255,255,255,1);
     line-height: 24px;
+}
+.footer-menu>ul>li>a:hover{
+    color: rgb(223, 223, 223);
 }
 .footer-about:last-child{
     padding: 0px 0px 0px 40px;
