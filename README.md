@@ -1,0 +1,3 @@
+# biy-daalt
+AmarBaysgalan
+
