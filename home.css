@@ -1,3 +1,6 @@
+.head-right>ul>li:first-child{
+    color: #F58A07;
+}
 /* body */
 .feature-article{
     background: #DCEAF5;    
@@ -351,6 +354,7 @@
     height: 100%;
     position: absolute;
     left: 0;
+    object-fit: cover;
 }
 .CTA-section-right{
    width: 50%;

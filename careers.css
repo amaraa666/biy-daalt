@@ -1,3 +1,6 @@
+.head-right>ul>li:nth-child(2){
+    color: #F58A07;
+}
 /* body */
 .careers-header-section{
     display: flex;

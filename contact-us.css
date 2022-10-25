@@ -1,3 +1,6 @@
+.head-right>ul>li:nth-child(5){
+    color: #F58A07;
+}
 .contact-us-header{
     padding-top: 100px;
 }
@@ -94,9 +97,10 @@ textarea{
     color: #9C9C9C;
 }
 .contact-section-map{
+    width: 50%;
     padding: 12px;
 }
-.contact-section-map>img{
+.contact-section-map>iframe{
     border-radius: 20px;
     height: 100%;
     width: 100%;
